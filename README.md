@@ -4,3 +4,5 @@
 ### Members
 - Lisa Godiwn
 - Nihal Ranchod
+
+### PDF Overview: <a href="DescriptionOfProject.pdf">Project Overview PDF</a>
