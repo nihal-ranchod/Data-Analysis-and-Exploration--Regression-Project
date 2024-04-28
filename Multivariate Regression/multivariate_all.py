@@ -38,7 +38,7 @@ residuals_train = y_train - y_train_pred
 residuals_test = y_test - y_test_pred
 
 # Plot residuals for training data
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(11, 7))
 plt.subplot(1, 2, 1)
 plt.scatter(y_train_pred, residuals_train, color='blue')
 plt.xlabel('Predicted Values')
