@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
+import statsmodels.api as sm
 
 # Load the dataset
 data = pd.read_csv('lawyers.csv')
@@ -52,3 +53,9 @@ plt.xlabel('Predicted Values')
 plt.ylabel('Residuals')
 plt.title('Residual Plot CLM, LVL and AGE for (Test Data)')
 plt.show()
+
+# Fit the linear regression model
+model = sm.OLS(y_train, sm.add_constant(X_train)).fit()
+
+# Print model summary including AIC and BIC
+print(model.summary())
