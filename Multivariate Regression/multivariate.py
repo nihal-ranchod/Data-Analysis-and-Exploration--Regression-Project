@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
+import statsmodels.api as sm
 
 # Load the dataset
 data = pd.read_csv('lawyers.csv')
@@ -125,3 +126,22 @@ print("Test R-squared:", test_r2_iter2)
 print("\nIteration 3:")
 print("Training R-squared:", train_r2_iter3)
 print("Test R-squared:", test_r2_iter3)
+
+# Dictionary to store AIC and BIC values for each model
+aic_bic_values = {}
+
+# Iteration 1: Using CLM and AGE
+model_iter1 = sm.OLS(y_train, sm.add_constant(X_iter1_train)).fit()
+aic_bic_values['Iteration 1'] = {'AIC': model_iter1.aic, 'BIC': model_iter1.bic}
+
+# Iteration 2: Using CLM and LVL
+model_iter2 = sm.OLS(y_train, sm.add_constant(X_iter2_train)).fit()
+aic_bic_values['Iteration 2'] = {'AIC': model_iter2.aic, 'BIC': model_iter2.bic}
+
+# Iteration 3: Using CLM and SDY
+model_iter3 = sm.OLS(y_train, sm.add_constant(X_iter3_train)).fit()
+aic_bic_values['Iteration 3'] = {'AIC': model_iter3.aic, 'BIC': model_iter3.bic}
+
+# Print AIC and BIC values for each iteration
+for iteration, values in aic_bic_values.items():
+    print(f"{iteration}: AIC - {values['AIC']}, BIC - {values['BIC']}")
