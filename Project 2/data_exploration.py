@@ -16,6 +16,15 @@ print(data.corr())
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+# Correlation matrix without the 'ID' column
+correlation_matrix = data.drop(columns=['ID']).corr()
+
+# Change the color palette and center the color mapping at 0
+sns.heatmap(correlation_matrix, annot=True, cmap='magma', center=0, vmin=-1, vmax=1)
+
+# Show the plot
+plt.show()
+
 # Customizing seaborn style
 sns.set(style="whitegrid")
 
