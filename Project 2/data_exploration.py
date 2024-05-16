@@ -16,21 +16,23 @@ print(data.corr())
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Correlation matrix without the 'ID' column
-correlation_matrix = data.drop(columns=['ID']).corr()
+# Exclude anomalies with IDs 148 and 151 from the dataset
+filtered_data = data[(data['ID'] != 148) & (data['ID'] != 151)]
+
+# Correlation matrix without the 'ID' column and anomalies
+correlation_matrix = filtered_data.drop(columns=['ID']).corr()
 
 # Change the color palette and center the color mapping at 0
 sns.heatmap(correlation_matrix, annot=True, cmap='magma', center=0, vmin=-1, vmax=1)
-
-# Show the plot
+plt.title('Correlation Matrix (Excluding Anomalies)')
 plt.show()
 
 # Customizing seaborn style
 sns.set(style="whitegrid")
 
 # Filter the dataset based on the "Stay" column
-stay_data = data[data['Stay'] == 1]  # Data for employees who stay
-leave_data = data[data['Stay'] == 0]  # Data for employees who leave
+stay_data = filtered_data[filtered_data['Stay'] == 1]  # Data for employees who stay
+leave_data = filtered_data[filtered_data['Stay'] == 0]  # Data for employees who leave
 
 combined_data = pd.concat([stay_data, leave_data])
 
