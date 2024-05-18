@@ -6,6 +6,7 @@ from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
+from imblearn.over_sampling import SMOTE
 
 # Load the dataset
 data = pd.read_csv('data_scientist.csv')
@@ -28,15 +29,19 @@ X_train = scaler.fit_transform(X_train)
 X_val = scaler.transform(X_val)
 X_test = scaler.transform(X_test)
 
+# Apply SMOTE to the training data
+smote = SMOTE(random_state=42)
+X_train_resampled, y_train_resampled = smote.fit_resample(X_train, y_train)
+
 # Create the logistic regression model
 model = LogisticRegression(max_iter=1000)
 
 # Train the model
-model.fit(X_train, y_train)
+model.fit(X_train_resampled, y_train_resampled)
 
 # K-Fold Cross-Validation
 kf = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
-cv_scores = cross_val_score(model, X, y, cv=kf, scoring='accuracy')
+cv_scores = cross_val_score(model, X_train_resampled, y_train_resampled, cv=kf, scoring='accuracy')
 
 print("Stratified Cross-Validation Scores:", cv_scores)
 print("Mean Stratified CV Accuracy:", cv_scores.mean())
