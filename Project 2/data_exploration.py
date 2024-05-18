@@ -1,4 +1,7 @@
 import pandas as pd
+# Scatter plots for numerical variables
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 # Load the dataset
 data = pd.read_csv('data_scientist.csv')
@@ -11,10 +14,6 @@ print(data.describe())
 
 # Correlation matrix
 print(data.corr())
-
-# Scatter plots for numerical variables
-import matplotlib.pyplot as plt
-import seaborn as sns
 
 # Exclude anomalies with IDs 148 and 151 from the dataset
 filtered_data = data[(data['ID'] != 148) & (data['ID'] != 151)]
@@ -39,4 +38,12 @@ combined_data = pd.concat([stay_data, leave_data])
 # Pair plot for both stay and leave groups
 sns.pairplot(combined_data.drop(columns=['ID']), hue='Stay', palette='husl')
 plt.suptitle('Pair Plot for Employees Who Stay(1) and Leave(0)', y=1)  # Title with some space above the plot
+plt.show()
+
+# Filter out the outlier (assuming the outlier is associated with pay > $100,000)
+filtered_data = combined_data[data['Pay'] <= 100000]
+
+# Pair plot for both stay and leave groups
+sns.pairplot(filtered_data.drop(columns=['ID']), hue='Stay', palette='husl')
+plt.suptitle('Pair Plot for Employees Who Stay (1) and Leave (0) (Excluding Outlier)', y=1)
 plt.show()
