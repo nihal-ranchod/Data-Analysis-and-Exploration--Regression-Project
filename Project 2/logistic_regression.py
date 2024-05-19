@@ -12,16 +12,26 @@ from imblearn.over_sampling import SMOTE
 data = pd.read_csv('data_scientist.csv')
 
 # Exclude anomalies with IDs 148, 151, and 201 from the dataset
-filtered_data = data[(data['ID'] != 148) & (data['ID'] != 151) & (data['ID'] != 201)]
-filtered_data = filtered_data.drop(columns=['ID'])
+data = data[(data['ID'] != 148) & (data['ID'] != 151) & (data['ID'] != 201)]
+data = data.drop(columns=['ID'])
 
+
+data['NormPay'] = data['Pay'] / data['Perf']
+data['HapDiff'] = data['EstHap'] - data['EstHap'].mean()
+
+data['Pay*Pay'] = data['Pay'] * data['Pay']
+data['Pay*Perf'] = data['Pay'] * data['Perf']
+data['Pay*EstHap'] = data['Pay'] * data['EstHap']
+data['Perf*Perf'] = data['Perf'] * data['Perf']
+data['Perf*EstHap'] = data['Perf'] * data['EstHap']
+data['EstHap*EstHap'] = data['EstHap'] * data['EstHap']
 # Selecting features
-X = filtered_data[['Pay', 'EstHap', 'Perf']]
-y = filtered_data['Stay']
+X = data[['NormPay', 'Pay*Perf', 'HapDiff', 'Pay*Pay', 'Perf']]
+y = data['Stay']
 
 # Split data into training, validation, and test sets
-X_train_val, X_test, y_train_val, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-X_train, X_val, y_train, y_val = train_test_split(X_train_val, y_train_val, test_size=0.25, random_state=42)  # 0.25 * 0.8 = 0.2
+X_train_val, X_test, y_train_val, y_test = train_test_split(X, y, test_size=0.2)
+X_train, X_val, y_train, y_val = train_test_split(X_train_val, y_train_val, test_size=0.25)  # 0.25 * 0.8 = 0.2
 
 # Standardize the features
 scaler = StandardScaler()
