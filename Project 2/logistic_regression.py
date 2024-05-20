@@ -30,7 +30,7 @@ y = data['Stay']
 
 # Split data into training, validation, and test sets
 X_train_val, X_test, y_train_val, y_test = train_test_split(X, y, test_size=0.2)
-X_train, X_val, y_train, y_val = train_test_split(X_train_val, y_train_val, test_size=0.25)  # 0.25 * 0.8 = 0.2
+X_train, X_val, y_train, y_val = train_test_split(X_train_val, y_train_val, test_size=0.25)  # 0.25 * 0.8 = 0.2 
 
 # Standardize the features
 scaler = StandardScaler()
@@ -80,6 +80,14 @@ print("Test ROC-AUC Score:", test_roc_auc)
 # Confusion Matrix
 plt.figure(figsize=(8, 6))
 sns.heatmap(test_cm, annot=True, fmt='d', cmap='Greens', cbar=False)
+plt.xlabel('Predicted Labels')
+plt.ylabel('True Labels')
+plt.title('Confusion Matrix')
+plt.show()
+
+# Confusion Matrix
+plt.figure(figsize=(8, 6))
+sns.heatmap(cm, annot=True, fmt='d', cmap='Greens', cbar=False)
 plt.xlabel('Predicted Labels')
 plt.ylabel('True Labels')
 plt.title('Confusion Matrix')
