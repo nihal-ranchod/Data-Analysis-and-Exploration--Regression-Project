@@ -81,3 +81,59 @@ print("Test Accuracy:", test_accuracy)
 print("Test Confusion Matrix:\n", test_cm)
 print("Test Classification Report:\n", test_report)
 print("Test ROC-AUC Score:", test_roc_auc)
+
+# Confusion Matrix
+plt.figure(figsize=(8, 6))
+sns.heatmap(test_cm, annot=True, fmt='d', cmap='Blues', cbar=False)
+plt.xlabel('Predicted Labels')
+plt.ylabel('True Labels')
+plt.title('Confusion Matrix')
+plt.show()
+
+# ROC Curve
+plt.figure(figsize=(8, 6))
+fpr, tpr, thresholds = roc_curve(y_test, y_test_pred_prob)
+plt.plot(fpr, tpr, color='blue', lw=2, label='ROC curve (area = %0.2f)' % test_roc_auc)
+plt.plot([0, 1], [0, 1], color='red', linestyle='--')
+plt.xlim([0.0, 1.0])
+plt.ylim([0.0, 1.05])
+plt.xlabel('False Positive Rate')
+plt.ylabel('True Positive Rate')
+plt.title('Receiver Operating Characteristic (ROC) Curve')
+plt.legend(loc="lower right")
+plt.show()
+
+# Generate evenly spaced values of each feature for plotting
+normpay_values = np.linspace(X_test[:, 0].min(), X_test[:, 0].max(), 100)
+pay_perf_values = np.linspace(X_test[:, 1].min(), X_test[:, 1].max(), 100)
+hapdiff_values = np.linspace(X_test[:, 2].min(), X_test[:, 2].max(), 100)
+pay_pay_values = np.linspace(X_test[:, 3].min(), X_test[:, 3].max(), 100)
+perf_values = np.linspace(X_test[:, 4].min(), X_test[:, 4].max(), 100)
+
+# Calculate the corresponding predicted probabilities using the logistic function for each feature
+sigmoid_normpay = 1 / (1 + np.exp(-model.coef_[0][0] * normpay_values - model.intercept_[0]))
+sigmoid_pay_perf = 1 / (1 + np.exp(-model.coef_[0][1] * pay_perf_values - model.intercept_[0]))
+sigmoid_hapdiff = 1 / (1 + np.exp(-model.coef_[0][2] * hapdiff_values - model.intercept_[0]))
+sigmoid_pay_pay = 1 / (1 + np.exp(-model.coef_[0][3] * pay_pay_values - model.intercept_[0]))
+sigmoid_perf = 1 / (1 + np.exp(-model.coef_[0][4] * perf_values - model.intercept_[0]))
+
+# Plot the sigmoid curves
+plt.figure(figsize=(10, 6))
+plt.plot(normpay_values, sigmoid_normpay, color='red', label='Logistic Regression (NormPay)')
+plt.plot(pay_perf_values, sigmoid_pay_perf, color='blue', label='Logistic Regression (Pay*Perf)')
+plt.plot(hapdiff_values, sigmoid_hapdiff, color='green', label='Logistic Regression (HapDiff)')
+plt.plot(pay_pay_values, sigmoid_pay_pay, color='orange', label='Logistic Regression (Pay*Pay)')
+plt.plot(perf_values, sigmoid_perf, color='purple', label='Logistic Regression (Perf)')
+
+# Plot the actual data points for each feature
+plt.scatter(X_test[:, 0], y_test, color='red', label='Actual Data (NormPay)', alpha=0.6)
+plt.scatter(X_test[:, 1], y_test, color='blue', label='Actual Data (Pay*Perf)', alpha=0.6)
+plt.scatter(X_test[:, 2], y_test, color='green', label='Actual Data (HapDiff)', alpha=0.6)
+plt.scatter(X_test[:, 3], y_test, color='orange', label='Actual Data (Pay*Pay)', alpha=0.6)
+plt.scatter(X_test[:, 4], y_test, color='purple', label='Actual Data (Perf)', alpha=0.6)
+
+plt.xlabel('Feature Values')
+plt.ylabel('Probability')
+plt.title('Logistic Regression')
+plt.legend()
+plt.show()
