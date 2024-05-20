@@ -15,10 +15,9 @@ data = pd.read_csv('data_scientist.csv')
 data = data[(data['ID'] != 148) & (data['ID'] != 151) & (data['ID'] != 201)]
 data = data.drop(columns=['ID'])
 
-
+# Generating new features
 data['NormPay'] = data['Pay'] / data['Perf']
 data['HapDiff'] = data['EstHap'] - data['EstHap'].mean()
-
 data['Pay*Pay'] = data['Pay'] * data['Pay']
 data['Pay*Perf'] = data['Pay'] * data['Perf']
 data['Pay*EstHap'] = data['Pay'] * data['EstHap']
@@ -45,14 +44,12 @@ X_train_resampled, y_train_resampled = smote.fit_resample(X_train, y_train)
 
 # Create the logistic regression model
 model = LogisticRegression(max_iter=1000)
-
 # Train the model
 model.fit(X_train_resampled, y_train_resampled)
 
 # K-Fold Cross-Validation
 kf = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
 cv_scores = cross_val_score(model, X_train_resampled, y_train_resampled, cv=kf, scoring='accuracy')
-
 print("Stratified Cross-Validation Scores:", cv_scores)
 print("Mean Stratified CV Accuracy:", cv_scores.mean())
 
@@ -63,7 +60,6 @@ accuracy = accuracy_score(y_val, y_val_pred)
 cm = confusion_matrix(y_val, y_val_pred)
 report = classification_report(y_val, y_val_pred, zero_division=0)
 roc_auc = roc_auc_score(y_val, y_val_pred_prob)
-
 print("Validation Accuracy:", accuracy)
 print("Confusion Matrix:\n", cm)
 print("Classification Report:\n", report)
@@ -76,7 +72,6 @@ test_accuracy = accuracy_score(y_test, y_test_pred)
 test_cm = confusion_matrix(y_test, y_test_pred)
 test_report = classification_report(y_test, y_test_pred, zero_division=0)
 test_roc_auc = roc_auc_score(y_test, y_test_pred_prob)
-
 print("Test Accuracy:", test_accuracy)
 print("Test Confusion Matrix:\n", test_cm)
 print("Test Classification Report:\n", test_report)
@@ -84,7 +79,7 @@ print("Test ROC-AUC Score:", test_roc_auc)
 
 # Confusion Matrix
 plt.figure(figsize=(8, 6))
-sns.heatmap(test_cm, annot=True, fmt='d', cmap='Blues', cbar=False)
+sns.heatmap(test_cm, annot=True, fmt='d', cmap='Greens', cbar=False)
 plt.xlabel('Predicted Labels')
 plt.ylabel('True Labels')
 plt.title('Confusion Matrix')
@@ -93,8 +88,8 @@ plt.show()
 # ROC Curve
 plt.figure(figsize=(8, 6))
 fpr, tpr, thresholds = roc_curve(y_test, y_test_pred_prob)
-plt.plot(fpr, tpr, color='blue', lw=2, label='ROC curve (area = %0.2f)' % test_roc_auc)
-plt.plot([0, 1], [0, 1], color='red', linestyle='--')
+plt.plot(fpr, tpr, color='purple', lw=2, label='ROC curve (area = %0.2f)' % test_roc_auc)
+plt.plot([0, 1], [0, 1], color='green', linestyle='--')
 plt.xlim([0.0, 1.0])
 plt.ylim([0.0, 1.05])
 plt.xlabel('False Positive Rate')
