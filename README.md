@@ -7,3 +7,6 @@
 
 ### PDF Overview of project 1: <a href="/Project 1/DescriptionOfProject.pdf">Project 1 Overview PDF</a>
 ### PDF Overview of project 2: <a href="/Project 2/DescriptionOfProject2.pdf">Project 2 Overview PDF</a>
+
+### Dependencies
+- scikit-learn version: 1.4.2
