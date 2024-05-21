@@ -9,4 +9,6 @@
 ### PDF Overview of project 2: <a href="/Project 2/DescriptionOfProject2.pdf">Project 2 Overview PDF</a>
 
 ### Dependencies
+```
 - scikit-learn version: 1.4.2
+```
