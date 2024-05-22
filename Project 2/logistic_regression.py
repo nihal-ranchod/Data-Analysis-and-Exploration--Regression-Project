@@ -25,7 +25,7 @@ data['Perf*Perf'] = data['Perf'] * data['Perf']
 data['Perf*EstHap'] = data['Perf'] * data['EstHap']
 data['EstHap*EstHap'] = data['EstHap'] * data['EstHap']
 # Selecting features
-X = data[['NormPay', 'Pay*Perf', 'HapDiff', 'Pay*Pay', 'Perf']]
+X = data[['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf']]
 y = data['Stay']
 
 # Split data into training, validation, and test sets

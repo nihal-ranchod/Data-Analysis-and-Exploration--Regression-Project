@@ -1,0 +1,2050 @@
+Features: ['Pay'], Test Accuracy: 0.56
+Features: ['Perf'], Test Accuracy: 0.66
+Features: ['EstHap'], Test Accuracy: 0.5
+Features: ['NormPay'], Test Accuracy: 0.54
+Features: ['HapDiff'], Test Accuracy: 0.5
+Features: ['Pay*Pay'], Test Accuracy: 0.48
+Features: ['Pay*Perf'], Test Accuracy: 0.54
+Features: ['Pay*EstHap'], Test Accuracy: 0.54
+Features: ['Perf*Perf'], Test Accuracy: 0.4
+Features: ['Perf*EstHap'], Test Accuracy: 0.4
+Features: ['EstHap*EstHap'], Test Accuracy: 0.5
+Features: ['Pay', 'Perf'], Test Accuracy: 0.6
+Features: ['Pay', 'EstHap'], Test Accuracy: 0.56
+Features: ['Pay', 'NormPay'], Test Accuracy: 0.55
+Features: ['Pay', 'HapDiff'], Test Accuracy: 0.56
+Features: ['Pay', 'Pay*Pay'], Test Accuracy: 0.63
+Features: ['Pay', 'Pay*Perf'], Test Accuracy: 0.58
+Features: ['Pay', 'Pay*EstHap'], Test Accuracy: 0.52
+Features: ['Pay', 'Perf*Perf'], Test Accuracy: 0.56
+Features: ['Pay', 'Perf*EstHap'], Test Accuracy: 0.56
+Features: ['Pay', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'EstHap'], Test Accuracy: 0.5
+Features: ['Perf', 'NormPay'], Test Accuracy: 0.55
+Features: ['Perf', 'HapDiff'], Test Accuracy: 0.5
+Features: ['Perf', 'Pay*Pay'], Test Accuracy: 0.51
+Features: ['Perf', 'Pay*Perf'], Test Accuracy: 0.54
+Features: ['Perf', 'Pay*EstHap'], Test Accuracy: 0.54
+Features: ['Perf', 'Perf*Perf'], Test Accuracy: 0.29
+Features: ['Perf', 'Perf*EstHap'], Test Accuracy: 0.29
+Features: ['Perf', 'EstHap*EstHap'], Test Accuracy: 0.5
+Features: ['EstHap', 'NormPay'], Test Accuracy: 0.59
+Features: ['EstHap', 'HapDiff'], Test Accuracy: 0.5
+Features: ['EstHap', 'Pay*Pay'], Test Accuracy: 0.6
+Features: ['EstHap', 'Pay*Perf'], Test Accuracy: 0.57
+Features: ['EstHap', 'Pay*EstHap'], Test Accuracy: 0.57
+Features: ['EstHap', 'Perf*Perf'], Test Accuracy: 0.5
+Features: ['EstHap', 'Perf*EstHap'], Test Accuracy: 0.5
+Features: ['EstHap', 'EstHap*EstHap'], Test Accuracy: 0.5
+Features: ['NormPay', 'HapDiff'], Test Accuracy: 0.59
+Features: ['NormPay', 'Pay*Pay'], Test Accuracy: 0.54
+Features: ['NormPay', 'Pay*Perf'], Test Accuracy: 0.55
+Features: ['NormPay', 'Pay*EstHap'], Test Accuracy: 0.58
+Features: ['NormPay', 'Perf*Perf'], Test Accuracy: 0.55
+Features: ['NormPay', 'Perf*EstHap'], Test Accuracy: 0.55
+Features: ['NormPay', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['HapDiff', 'Pay*Pay'], Test Accuracy: 0.6
+Features: ['HapDiff', 'Pay*Perf'], Test Accuracy: 0.57
+Features: ['HapDiff', 'Pay*EstHap'], Test Accuracy: 0.57
+Features: ['HapDiff', 'Perf*Perf'], Test Accuracy: 0.5
+Features: ['HapDiff', 'Perf*EstHap'], Test Accuracy: 0.5
+Features: ['HapDiff', 'EstHap*EstHap'], Test Accuracy: 0.5
+Features: ['Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.48
+Features: ['Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.57
+Features: ['Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.5
+Features: ['Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.5
+Features: ['Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.53
+Features: ['Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.56
+Features: ['Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.56
+Features: ['Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.53
+Features: ['Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.53
+Features: ['Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.4
+Features: ['Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.5
+Features: ['Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.5
+Features: ['Pay', 'Perf', 'EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'Perf', 'NormPay'], Test Accuracy: 0.57
+Features: ['Pay', 'Perf', 'HapDiff'], Test Accuracy: 0.57
+Features: ['Pay', 'Perf', 'Pay*Pay'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'Pay*Perf'], Test Accuracy: 0.57
+Features: ['Pay', 'Perf', 'Pay*EstHap'], Test Accuracy: 0.53
+Features: ['Pay', 'Perf', 'Perf*Perf'], Test Accuracy: 0.53
+Features: ['Pay', 'Perf', 'Perf*EstHap'], Test Accuracy: 0.53
+Features: ['Pay', 'Perf', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'EstHap', 'NormPay'], Test Accuracy: 0.58
+Features: ['Pay', 'EstHap', 'HapDiff'], Test Accuracy: 0.56
+Features: ['Pay', 'EstHap', 'Pay*Pay'], Test Accuracy: 0.58
+Features: ['Pay', 'EstHap', 'Pay*Perf'], Test Accuracy: 0.6
+Features: ['Pay', 'EstHap', 'Pay*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Pay', 'EstHap', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Pay', 'NormPay', 'HapDiff'], Test Accuracy: 0.58
+Features: ['Pay', 'NormPay', 'Pay*Pay'], Test Accuracy: 0.59
+Features: ['Pay', 'NormPay', 'Pay*Perf'], Test Accuracy: 0.53
+Features: ['Pay', 'NormPay', 'Pay*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'NormPay', 'Perf*Perf'], Test Accuracy: 0.56
+Features: ['Pay', 'NormPay', 'Perf*EstHap'], Test Accuracy: 0.56
+Features: ['Pay', 'NormPay', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'HapDiff', 'Pay*Pay'], Test Accuracy: 0.58
+Features: ['Pay', 'HapDiff', 'Pay*Perf'], Test Accuracy: 0.6
+Features: ['Pay', 'HapDiff', 'Pay*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'HapDiff', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Pay', 'HapDiff', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'HapDiff', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Pay', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.62
+Features: ['Pay', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Pay', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.53
+Features: ['Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.52
+Features: ['Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.52
+Features: ['Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.56
+Features: ['Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'EstHap', 'NormPay'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'HapDiff'], Test Accuracy: 0.5
+Features: ['Perf', 'EstHap', 'Pay*Pay'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'Pay*Perf'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'Pay*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'EstHap', 'Perf*Perf'], Test Accuracy: 0.56
+Features: ['Perf', 'EstHap', 'Perf*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'EstHap', 'EstHap*EstHap'], Test Accuracy: 0.5
+Features: ['Perf', 'NormPay', 'HapDiff'], Test Accuracy: 0.59
+Features: ['Perf', 'NormPay', 'Pay*Pay'], Test Accuracy: 0.65
+Features: ['Perf', 'NormPay', 'Pay*Perf'], Test Accuracy: 0.58
+Features: ['Perf', 'NormPay', 'Pay*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'NormPay', 'Perf*Perf'], Test Accuracy: 0.53
+Features: ['Perf', 'NormPay', 'Perf*EstHap'], Test Accuracy: 0.53
+Features: ['Perf', 'NormPay', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'HapDiff', 'Pay*Pay'], Test Accuracy: 0.59
+Features: ['Perf', 'HapDiff', 'Pay*Perf'], Test Accuracy: 0.6
+Features: ['Perf', 'HapDiff', 'Pay*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'HapDiff', 'Perf*Perf'], Test Accuracy: 0.56
+Features: ['Perf', 'HapDiff', 'Perf*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'HapDiff', 'EstHap*EstHap'], Test Accuracy: 0.5
+Features: ['Perf', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.67
+Features: ['Perf', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.47
+Features: ['Perf', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.47
+Features: ['Perf', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.53
+Features: ['Perf', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.53
+Features: ['Perf', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.53
+Features: ['Perf', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.57
+Features: ['Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.29
+Features: ['Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['EstHap', 'NormPay', 'HapDiff'], Test Accuracy: 0.59
+Features: ['EstHap', 'NormPay', 'Pay*Pay'], Test Accuracy: 0.58
+Features: ['EstHap', 'NormPay', 'Pay*Perf'], Test Accuracy: 0.59
+Features: ['EstHap', 'NormPay', 'Pay*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'Perf*Perf'], Test Accuracy: 0.57
+Features: ['EstHap', 'NormPay', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['EstHap', 'NormPay', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'HapDiff', 'Pay*Pay'], Test Accuracy: 0.6
+Features: ['EstHap', 'HapDiff', 'Pay*Perf'], Test Accuracy: 0.57
+Features: ['EstHap', 'HapDiff', 'Pay*EstHap'], Test Accuracy: 0.57
+Features: ['EstHap', 'HapDiff', 'Perf*Perf'], Test Accuracy: 0.5
+Features: ['EstHap', 'HapDiff', 'Perf*EstHap'], Test Accuracy: 0.5
+Features: ['EstHap', 'HapDiff', 'EstHap*EstHap'], Test Accuracy: 0.5
+Features: ['EstHap', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.59
+Features: ['EstHap', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.57
+Features: ['EstHap', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['EstHap', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['EstHap', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.55
+Features: ['EstHap', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.58
+Features: ['EstHap', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['EstHap', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.53
+Features: ['EstHap', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.57
+Features: ['EstHap', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['EstHap', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.5
+Features: ['EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.5
+Features: ['EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.5
+Features: ['NormPay', 'HapDiff', 'Pay*Pay'], Test Accuracy: 0.58
+Features: ['NormPay', 'HapDiff', 'Pay*Perf'], Test Accuracy: 0.59
+Features: ['NormPay', 'HapDiff', 'Pay*EstHap'], Test Accuracy: 0.6
+Features: ['NormPay', 'HapDiff', 'Perf*Perf'], Test Accuracy: 0.57
+Features: ['NormPay', 'HapDiff', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['NormPay', 'HapDiff', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['NormPay', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.63
+Features: ['NormPay', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.57
+Features: ['NormPay', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.58
+Features: ['NormPay', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['NormPay', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['NormPay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.56
+Features: ['NormPay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.57
+Features: ['NormPay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['NormPay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['NormPay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['NormPay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['NormPay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['NormPay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.55
+Features: ['NormPay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['NormPay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['HapDiff', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.59
+Features: ['HapDiff', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.57
+Features: ['HapDiff', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['HapDiff', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['HapDiff', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['HapDiff', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.55
+Features: ['HapDiff', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.58
+Features: ['HapDiff', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['HapDiff', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.53
+Features: ['HapDiff', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.57
+Features: ['HapDiff', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['HapDiff', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['HapDiff', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.5
+Features: ['HapDiff', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.5
+Features: ['HapDiff', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.5
+Features: ['Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.57
+Features: ['Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.57
+Features: ['Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.57
+Features: ['Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.5
+Features: ['Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.51
+Features: ['Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.51
+Features: ['Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.56
+Features: ['Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.53
+Features: ['Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.5
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff'], Test Accuracy: 0.57
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Perf'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'Perf', 'EstHap', 'Perf*Perf'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'EstHap', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'EstHap', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay'], Test Accuracy: 0.65
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Perf'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'Perf', 'NormPay', 'Perf*Perf'], Test Accuracy: 0.57
+Features: ['Pay', 'Perf', 'NormPay', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'Perf', 'NormPay', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Perf'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'Perf', 'HapDiff', 'Perf*Perf'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'HapDiff', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'HapDiff', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.56
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'Perf', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.52
+Features: ['Pay', 'Perf', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.54
+Features: ['Pay', 'Perf', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.54
+Features: ['Pay', 'Perf', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.57
+Features: ['Pay', 'Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.54
+Features: ['Pay', 'Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff'], Test Accuracy: 0.58
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay'], Test Accuracy: 0.57
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Perf'], Test Accuracy: 0.6
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'EstHap', 'NormPay', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'NormPay', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'NormPay', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay'], Test Accuracy: 0.58
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Perf'], Test Accuracy: 0.59
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'HapDiff', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Pay', 'EstHap', 'HapDiff', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'EstHap', 'HapDiff', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.58
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.57
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'EstHap', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Pay', 'EstHap', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'EstHap', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Pay', 'EstHap', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay'], Test Accuracy: 0.57
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Perf'], Test Accuracy: 0.6
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'NormPay', 'HapDiff', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Pay', 'NormPay', 'HapDiff', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'NormPay', 'HapDiff', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.63
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.66
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.66
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'NormPay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'NormPay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.57
+Features: ['Pay', 'NormPay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'NormPay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'NormPay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.55
+Features: ['Pay', 'NormPay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.55
+Features: ['Pay', 'NormPay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'NormPay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.52
+Features: ['Pay', 'NormPay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'NormPay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.58
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.57
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'HapDiff', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Pay', 'HapDiff', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'HapDiff', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Pay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'HapDiff', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'HapDiff', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'HapDiff', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'HapDiff', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Pay', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.56
+Features: ['Pay', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.56
+Features: ['Pay', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.56
+Features: ['Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.56
+Features: ['Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.52
+Features: ['Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Perf'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'NormPay', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'NormPay', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Perf'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'EstHap', 'HapDiff', 'Perf*Perf'], Test Accuracy: 0.56
+Features: ['Perf', 'EstHap', 'HapDiff', 'Perf*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'EstHap', 'HapDiff', 'EstHap*EstHap'], Test Accuracy: 0.5
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.54
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'EstHap', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.53
+Features: ['Perf', 'EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Perf'], Test Accuracy: 0.57
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'HapDiff', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['Perf', 'NormPay', 'HapDiff', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'NormPay', 'HapDiff', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.66
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.64
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.64
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'NormPay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Perf', 'NormPay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'NormPay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'NormPay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.55
+Features: ['Perf', 'NormPay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.55
+Features: ['Perf', 'NormPay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.53
+Features: ['Perf', 'NormPay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'NormPay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.6
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.54
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'HapDiff', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'HapDiff', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Perf', 'HapDiff', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'HapDiff', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'HapDiff', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Perf', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'HapDiff', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.53
+Features: ['Perf', 'HapDiff', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'HapDiff', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'HapDiff', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.63
+Features: ['Perf', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['Perf', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Perf', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.47
+Features: ['Perf', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.56
+Features: ['Perf', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.53
+Features: ['Perf', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay'], Test Accuracy: 0.58
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Perf'], Test Accuracy: 0.59
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Perf*Perf'], Test Accuracy: 0.57
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['EstHap', 'NormPay', 'HapDiff', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.57
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['EstHap', 'NormPay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['EstHap', 'NormPay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['EstHap', 'NormPay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['EstHap', 'NormPay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.59
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.57
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.55
+Features: ['EstHap', 'HapDiff', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.58
+Features: ['EstHap', 'HapDiff', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['EstHap', 'HapDiff', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.53
+Features: ['EstHap', 'HapDiff', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.57
+Features: ['EstHap', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['EstHap', 'HapDiff', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['EstHap', 'HapDiff', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.5
+Features: ['EstHap', 'HapDiff', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.5
+Features: ['EstHap', 'HapDiff', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.5
+Features: ['EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.57
+Features: ['EstHap', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['EstHap', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['EstHap', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['EstHap', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.53
+Features: ['EstHap', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.53
+Features: ['EstHap', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['EstHap', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['EstHap', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['EstHap', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.55
+Features: ['EstHap', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.55
+Features: ['EstHap', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['EstHap', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['EstHap', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['EstHap', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['EstHap', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['EstHap', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['EstHap', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.5
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.63
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.57
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.63
+Features: ['NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['NormPay', 'HapDiff', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['NormPay', 'HapDiff', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.63
+Features: ['NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['NormPay', 'HapDiff', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['NormPay', 'HapDiff', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['NormPay', 'HapDiff', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['NormPay', 'HapDiff', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.62
+Features: ['NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.65
+Features: ['NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.65
+Features: ['NormPay', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['NormPay', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['NormPay', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['NormPay', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['NormPay', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['NormPay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['NormPay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['NormPay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['NormPay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['NormPay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['NormPay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['NormPay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['NormPay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.57
+Features: ['HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['HapDiff', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.53
+Features: ['HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.53
+Features: ['HapDiff', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['HapDiff', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['HapDiff', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.55
+Features: ['HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.55
+Features: ['HapDiff', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['HapDiff', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['HapDiff', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['HapDiff', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['HapDiff', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['HapDiff', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.5
+Features: ['Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.58
+Features: ['Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.51
+Features: ['Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Perf'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Perf'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Perf*Perf'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Perf'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.65
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.65
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'NormPay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'Perf', 'NormPay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'HapDiff', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'HapDiff', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'HapDiff', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.56
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.56
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.56
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.53
+Features: ['Pay', 'Perf', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay'], Test Accuracy: 0.57
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf'], Test Accuracy: 0.6
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'EstHap', 'NormPay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'NormPay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'EstHap', 'NormPay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.58
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.57
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'HapDiff', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'EstHap', 'HapDiff', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'EstHap', 'HapDiff', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.57
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.58
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'EstHap', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Pay', 'EstHap', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Pay', 'EstHap', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.63
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'NormPay', 'HapDiff', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'NormPay', 'HapDiff', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'NormPay', 'HapDiff', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.65
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.66
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Pay', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'NormPay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'NormPay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'NormPay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'NormPay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'NormPay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'NormPay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'NormPay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.57
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.58
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Pay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Pay', 'HapDiff', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Pay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'HapDiff', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.56
+Features: ['Pay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.56
+Features: ['Pay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.56
+Features: ['Pay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.56
+Features: ['Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.64
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'EstHap', 'NormPay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.54
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.54
+Features: ['Perf', 'EstHap', 'HapDiff', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'EstHap', 'HapDiff', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.53
+Features: ['Perf', 'EstHap', 'HapDiff', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.53
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.52
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'EstHap', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'EstHap', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.71
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'HapDiff', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'HapDiff', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'NormPay', 'HapDiff', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.66
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.66
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.64
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['Perf', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'NormPay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'NormPay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'NormPay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'NormPay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'NormPay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'NormPay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.57
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.52
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['Perf', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'HapDiff', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'HapDiff', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Perf', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['Perf', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.57
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['EstHap', 'NormPay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['EstHap', 'NormPay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['EstHap', 'NormPay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.57
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.53
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.53
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.55
+Features: ['EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.55
+Features: ['EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['EstHap', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['EstHap', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['EstHap', 'HapDiff', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['EstHap', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['EstHap', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['EstHap', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['EstHap', 'HapDiff', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.5
+Features: ['EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.56
+Features: ['EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.56
+Features: ['EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['EstHap', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['EstHap', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['EstHap', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['EstHap', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.53
+Features: ['EstHap', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.52
+Features: ['EstHap', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.52
+Features: ['EstHap', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['EstHap', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.55
+Features: ['EstHap', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['EstHap', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['EstHap', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['EstHap', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.63
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.63
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.63
+Features: ['NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['NormPay', 'HapDiff', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['NormPay', 'HapDiff', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.65
+Features: ['NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.65
+Features: ['NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['NormPay', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['NormPay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['NormPay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.56
+Features: ['HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.56
+Features: ['HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.53
+Features: ['HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.52
+Features: ['HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.52
+Features: ['HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.55
+Features: ['HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'Perf', 'EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.66
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.66
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'NormPay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'Perf', 'HapDiff', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.56
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.56
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'NormPay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.57
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.58
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'HapDiff', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.58
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Pay', 'EstHap', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.63
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'NormPay', 'HapDiff', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'NormPay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'NormPay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.58
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Pay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.56
+Features: ['Pay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.64
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.63
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.64
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.64
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Perf', 'EstHap', 'NormPay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.51
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'HapDiff', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.58
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'EstHap', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'EstHap', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.63
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.64
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.64
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Perf', 'NormPay', 'HapDiff', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.66
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.58
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['EstHap', 'NormPay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.56
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.56
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.53
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.53
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.51
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.51
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.55
+Features: ['EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['EstHap', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['EstHap', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.56
+Features: ['EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['EstHap', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['EstHap', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.52
+Features: ['EstHap', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.63
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.56
+Features: ['HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.52
+Features: ['HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.66
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.64
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.65
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.58
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.65
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.63
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.64
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.64
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.64
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.64
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.64
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.58
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.54
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.54
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.57
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['Perf', 'EstHap', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.64
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.64
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.64
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['Perf', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.56
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.51
+Features: ['EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.55
+Features: ['EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.64
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.64
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.65
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.66
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.66
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.63
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.64
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.64
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.53
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.53
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.64
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.59
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.56
+Features: ['NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.6
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.66
+Features: ['Pay', 'Perf', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.58
+Features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.61
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.63
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'Perf', 'EstHap', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.62
+Features: ['Pay', 'Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.65
+Features: ['Pay', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.65
+Features: ['Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+Features: ['Pay', 'Perf', 'EstHap', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf', 'Pay*EstHap', 'Perf*Perf', 'Perf*EstHap', 'EstHap*EstHap'], Test Accuracy: 0.64
+
+Best combination of features: ['Perf', 'NormPay', 'HapDiff', 'Pay*Pay', 'Pay*Perf']
+Best Test Accuracy: 0.71
