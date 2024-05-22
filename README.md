@@ -11,4 +11,5 @@
 ### Dependencies
 ```
 - scikit-learn version: 1.4.2
+- imblearn version: 0.0
 ```
